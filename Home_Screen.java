@@ -43,10 +43,10 @@ public class Home_Screen
         background.add(instruction);
 
         // Attractive Credits Label
-        creditsLabel = new JLabel("Created By: Gaston C. & Aryan D. | Last Updated: May 2025", SwingConstants.CENTER);
+        creditsLabel = new JLabel("Created By: Gaston C. & Aryan D. | Last Updated: June 20, 2025", SwingConstants.CENTER);
         creditsLabel.setFont(new Font("Goudy Old Style", Font.ITALIC, 24)); // Elegant, old-style font
         creditsLabel.setForeground(new Color(255, 223, 0)); // Light gold
-        creditsLabel.setBounds(135, 680, 750, 60);
+        creditsLabel.setBounds(100, 680, 800, 60);
         creditsLabel.setOpaque(true);
         creditsLabel.setBackground(new Color(0, 0, 0, 180)); // Semi-transparent black
         creditsLabel.setBorder(BorderFactory.createCompoundBorder(

@@ -24,10 +24,10 @@ public class Player
         this.archerWeapon = someArcherWeapon;
         this.meleeWeapon = someMeleeWeapon;
         this.magicWeapon = someMagicWeapon;
-        this.totalHealth = 250;
-        this.currentHealth = 250;
+        this.totalHealth = 150;
+        this.currentHealth = 150;
         this.totalEnergy = 10;
-        this.currentEnergy = 100;
+        this.currentEnergy = 10;
     }
 
     //Getters

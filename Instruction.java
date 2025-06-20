@@ -38,7 +38,7 @@ public class Instruction extends JFrame {
         instructionsTextArea = new JTextArea();
         instructionsTextArea.setText("""
                     Step 1: Enter the Number of Rounds You Want to Play
-                    - Only enter an integer from 1 to 20.
+                    - Only enter an integer from 3 to 10.
                     
                     Step 2: Choose Your Weapons
                     -Pick 1 Archer Weapon, 1 Melee Weapon, and 1 Magic Weapon.

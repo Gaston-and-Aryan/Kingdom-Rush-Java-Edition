@@ -509,7 +509,7 @@ public class BattlePage extends JFrame
     public void doPlayerWinsRound()
     {
         //Player Rewards
-        int newHealth = currentPlayer.getCurrentHealth() + 100;
+        int newHealth = currentPlayer.getCurrentHealth() + 50;
         currentPlayer.setHealth(newHealth);
         int newEnergy = currentPlayer.getCurrentEnergy() + 5;
         currentPlayer.setEnergy(newEnergy);

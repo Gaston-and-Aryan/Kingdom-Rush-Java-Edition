@@ -15,13 +15,13 @@ public class Select_Round extends JFrame
     private JFrame select_round;
 
     //Non-JComponent IVs
-    private static int numberOfRounds = 1;
+    private static int numberOfRounds = 3;
 
 
 
     public Select_Round()
     {
-        numberOfRounds = 1; //Resetting rounds to 1 every time a new game is started, instead of starting at the original value inputted
+        numberOfRounds = 3; //Resetting rounds to 1 every time a new game is started, instead of starting at the original value inputted
 
         select_round = new JFrame("Select Rounds Page");
         select_round.setSize(1000, 800);
@@ -145,7 +145,6 @@ public class Select_Round extends JFrame
         {
             if (e.getSource() == select_weapon)
             {
-                System.out.println("The number of rounds is: " + numberOfRounds);
                 select_round.setVisible(false);
                 new WeaponSelection();
             } 
@@ -197,12 +196,12 @@ public class Select_Round extends JFrame
         @Override
         public void mouseClicked(MouseEvent e)
         {
-            if (direction.equals("left") && numberOfRounds > 1)
+            if (direction.equals("left") && numberOfRounds > 3)
             {
                 numberOfRounds--;
             }
             
-            else if (direction.equals("right") && numberOfRounds < 20)
+            else if (direction.equals("right") && numberOfRounds < 10)
             {
                 numberOfRounds++;
             }

@@ -49,15 +49,15 @@ public class Enemy
 
     //Creating All 10 Enemies
     public static Enemy makeGoblin() { return new Enemy("Goblin", 20, 5, 10, "Enemy Images/Goblin.jpg"); }
-    public static Enemy makeBandit() { return new Enemy("Bandit", 40, 15, 20, "Enemy Images/Bandit.jpg"); }
-    public static Enemy makeTroll() { return new Enemy("Troll", 30, 8, 12, "Enemy Images/Troll.jpg"); }
+    public static Enemy makeTroll() { return new Enemy("Troll", 50, 8, 12, "Enemy Images/Troll.jpg"); }
     public static Enemy makeDarkKnight() { return new Enemy("Dark Knight", 80, 20, 30, "Enemy Images/DarkKnight.jpg"); }
-    public static Enemy makeBraveryGolem() { return new Enemy("Twilight Golem", 120, 25, 35, "Enemy Images/BraveryGolem.jpg"); }
-    public static Enemy makeTaintedTarget() { return new Enemy("Tainted Target", 90, 20, 38, "Enemy Images/TaintedTarget.jpg"); }
-    public static Enemy makeAbomination() { return new Enemy("Abomination", 100, 18, 35, "Enemy Images/Abomination.jpg"); }
+    public static Enemy makeTaintedTarget() { return new Enemy("Tainted Target", 135, 20, 38, "Enemy Images/TaintedTarget.jpg"); }
+    public static Enemy makeAbomination() { return new Enemy("Abomination", 175, 18, 35, "Enemy Images/Abomination.jpg"); }
     public static Enemy makeOgre() { return new Enemy("Ogre", 150, 35, 50, "Enemy Images/Ogre.jpg"); }
-    public static Enemy makeYeti() { return new Enemy("Yeti", 180, 45, 60, "Enemy Images/Yeti.jpg"); }
-    public static Enemy makeDemonChampion() { return new Enemy("Demon Champion", 200, 60, 75, "Enemy Images/DemonChampion.jpg"); }
+    public static Enemy makeYeti() { return new Enemy("Yeti", 175, 45, 60, "Enemy Images/Yeti.jpg"); }
+    public static Enemy makeDemonChampion() { return new Enemy("Demon Champion", 200, 50, 65, "Enemy Images/DemonChampion.jpg"); }
+    public static Enemy makeSaurianBrute() { return new Enemy("Saurian Brute", 220, 10, 80, "Enemy Images/SaurianBrute.jpg"); }
+    public static Enemy makeBraveryGolem() { return new Enemy("Twilight Golem", 250, 35, 50, "Enemy Images/BraveryGolem.jpg"); }
 
 
 
@@ -68,7 +68,7 @@ public class Enemy
         switch (randomNumber)
         {
             case 1: currentEnemy = makeGoblin(); break;
-            case 2: currentEnemy = makeBandit(); break;          
+            case 2: currentEnemy = makeSaurianBrute(); break;          
             case 3: currentEnemy = makeTroll(); break;       
             case 4: currentEnemy = makeDarkKnight(); break;          
             case 5: currentEnemy = makeBraveryGolem(); break;            

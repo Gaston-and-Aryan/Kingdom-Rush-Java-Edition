@@ -46,7 +46,7 @@ public class Weapon
     public static Weapon musketeersRifle = new Weapon("Musketeer's Rifle", 3, 20, 35, "Headshot: ", "50% chance to do double damage.", "Weapon Images/Musketeer.jpg");
     public static Weapon goldenLongbow = new Weapon("Golden Longbow", 5, 1, 100, "Crimson Sentence: ", "Damage is always 50% of enemy's current HP.", "Weapon Images/Golden.jpg");
     public static Weapon paladinsSword = new Weapon("Paladin's Sword", 1, 8, 16, "Healing Light: ", "Heal back 10 HP every use.", "Weapon Images/Knights.jpg");
-    public static Weapon barbariansAxe = new Weapon("Barbarian's Axe", 5, 40, 55, "Bleeding Edge: ", "Enemy bleeds 20 HP every turn until death.", "Weapon Images/Barbarians.jpg");
+    public static Weapon barbariansAxe = new Weapon("Barbarian's Axe", 5, 35, 55, "Bleeding Edge: ", "Enemy bleeds 20 HP every turn until death.", "Weapon Images/Barbarians.jpg");
     public static Weapon forestKeepersSpear = new Weapon("Forest Keeper's Spear", 3, 18 , 32, "Vicious Vines: ", "50% chance to stun enemy for 1 turn.", "Weapon Images/Forest.jpg");
     public static Weapon mysticBlossom = new Weapon("Mystic Blossom", 1, 10, 10, "Power Overgrowth: ", "Damage increases by 1 every use.", "Weapon Images/Mystic.jpg");
     public static Weapon sorcerersCrystal = new Weapon("Sorcerer's Crystal", 3, 20, 33, "Energy Preservation: ", "50% chance this attack costs 0 energy.", "Weapon Images/Sourcer.jpg");
